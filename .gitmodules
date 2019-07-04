@@ -1,0 +1,6 @@
+[submodule "lilysing"]
+	path = lilysing
+	url = https://github.com/snappizz/lilysing.git
+[submodule "tmnt_wikipedia_bot"]
+	path = tmnt_wikipedia_bot
+	url = https://github.com/catleeball/tmnt_wikipedia_bot.git
