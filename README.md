@@ -7,3 +7,13 @@ Uses:
 - [snappizz's LilySing](https://github.com/snappizz/lilysing) to generate MBROLA
 - [catleeball's tmnt\_wikipedia\_bot](https://github.com/catleeball/tmnt_wikipedia_bot) to fix up input
 - [aparrish's pronouncingpy](https://github.com/aparrish/pronouncingpy) to get syllables for each word
+
+Running:
+
+```
+sudo apt install python3-venv mbrola mbrola-us2
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 hamiltonsing.txt "Alexander Hamilton" output.wav
+```
